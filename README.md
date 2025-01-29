@@ -2,7 +2,7 @@
 This is the Rust/Anchor smart contract for Pump.fun.
 
 ## Contact
-telegram: @Takhi77
+telegram: @sydnie34b
 
 You can contact me here if you have any problems with this repo then we can decide comfortable contact way.
 
