@@ -15,7 +15,7 @@ export class CurveConfiguration {
   readonly fees: number
 
   static readonly discriminator = Buffer.from([
-    225, 242, 252, 198, 63, 77, 56, 255,
+    225, 242, 252, 198, 63, 77, 53, 255,
   ])
 
   static readonly layout = borsh.struct([borsh.f64("fees")])
