@@ -142,7 +142,7 @@ describe("pump", () => {
         )
       tx.feePayer = user.publicKey
       tx.recentBlockhash = (await connection.getLatestBlockhash()).blockhash
-      // console.log(await connection.simulateTransaction(tx))
+      console.log(await connection.simulateTransaction(tx))
       const sig = await sendAndConfirmTransaction(connection, tx, [user], { skipPreflight: true })
       console.log("Successfully initialized : ", sig)
       let pool = await program.account.curveConfiguration.fetch(curveConfig)
